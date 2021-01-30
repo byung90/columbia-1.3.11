@@ -1,0 +1,31 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 381px;
+  height: 150px;
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+}
+
+.relative {
+  height: 300px;
+  position: relative;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.absolute {
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  background-color: gray;
+}
